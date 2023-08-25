@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(65, 4, 4, 0.98);
+
+}
+    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor:pointer;
+
+}
+ul.nav-list{
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+ul.nav-list li{
+    list-style: none;
+    padding: 20px;
+    
+}
+ ul.nav-list li a{
+    text-decoration:solid;
+    color: ivory;
+    font-family:cursive;
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: right;
+    justify-content:space-between;
+    font-size: large;
+    
+}
+button{
+    padding: 10px 0;
+    border-radius: 205px;
+    border: solid teal;
+    background: transparent;
+    color: ivory;
+    justify-content: center ;
+    position:relative;
+    transform: translateX(-600px);
+    width: 200px;
+    position: relative;
+    overflow:auto;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: large;
+    align-items: center;
+    top: 300px;
+    bottom:300px;
+}
+span{
+    background: teal;
+    height: 100%;
+    width: 0px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.logo{
+    width: 200%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 160px;
+    color: white;
+    
+}
+.ICON{
+    width: 20%;
+    margin-top: 120px;
+    color: ivory;
+    font-family: cursive;
+    transform: translateX(600px);
+    width:100%;
+    position:absolute;
+    top:60%;
+    text-align: center;
+
+    cursor: pointer;
+
+}
+.ICON img{
+    width: 120px;
+    color: white;
+    transform: translateX(-620px);
+
+}
+.content {
+    font-size: 7px;
+    margin-top: 80px;
+    color: ivory;
+    font-family: cursive;
+    transform: translateX(-20px);
+    width:100%;
+    position:absolute;
+    top:60%;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    
+}
