@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+
+}
+.bg{
+    background-color:rgba(65, 4, 4, 0.98);
+
+}
+.page1{
+    height: 620px;
+}
+    
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor:pointer;
+
+}
+ul.nav-list{
+    list-style: none;
+    text-align: right;
+    width: 2000px;
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+
+}
+ul.nav-list li{
+    list-style: none;
+    padding: 0.5px;
+    
+}
+ ul.nav-list li a{
+    text-decoration:solid;
+    color: ivory;
+    font-family:cursive;
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: right;
+    justify-content:space-between;
+    font-size: large;
+    
+}
+button{
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: translateX(480px);
+    border-radius: 205px;
+    border: solid teal;
+    background: transparent;
+    color: ivory;
+    justify-content: center ;
+    position:relative;
+    width: 200px;
+    overflow:hidden;
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    letter-spacing: 3px;
+    left: -490px;
+}
+span{
+    background: teal;
+    height: 100%;
+    width: 0px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.logo{
+    width: 200%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 160px;
+    color: white;
+    
+}
+.ICON{
+    width: 190%;
+    top: 350px;
+    color: ivory;
+    font-family: cursive;
+    transform: translateX(155px);
+    position:absolute;
+    top:420px;
+    text-align: center;
+    cursor: pointer;
+    left: 0px;
+    height: 120px;
+    
+}
+.ICON img{
+    width: 120px;
+    color: white;
+    transform: translateX(-690px);
+    bottom: 50px;
+    top: 270px;
+
+}
+.content {
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+    font-size: 6px;
+    margin-top: 80px;
+    color: ivory;
+    font-family: cursive;
+    transform: translateX(-20px);
+    width:100%;
+    position:absolute;
+    top: 250px;;
+    left:0px;
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+
+}
+.bg-image{
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("page2.jpg");
+    overflow: hidden;
+    margin: 29%;
+    padding: 25%;
+    width: 50%;
+    margin-top: 1px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    height: 0vh;
+
+}
+
+.bg-image  h1{
+    text-align: left;
+    width: 110%;
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(190, 15, 15);
+    transform: translateY(-250px);
+}
+.content0{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: centre;
+    text-align: center;
+    
+}
+hr{
+    margin-top: 0px;
+}
+.TypeMessage{
+    color: rgb(170, 243, 23);
+    max-width: 800px;
+    height: 42px auto;
+    overflow: hidden;
+    transform: translateY(-150px);
+    justify-content: center;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+    position: relative
+}
+.TypeMessage h2{
+    font-size: 25px;
+    font-family: cursive;
+    width: 600px;
+}
+.TypeMessage button{
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-radius: 205px;
+    border: solid yellowgreen;
+    background: transparent;
+    color: ivory;
+    justify-content: center ;
+    position:relative;
+    width: 200px;
+    overflow:hidden;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: large;
+    align-items: center;
+    transform: translateX(-90px);
+    justify-content: center;
+
+    width: 360px;
+    height: 76px;
+    border-left-width: 0px;
+    left: 0px;
+    padding-left: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.TypeMessage button span{
+    background:  rgb(170, 243, 23);
+    height: 100%;
+    width: 0px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.TypeMessage button:hover span{
+    width: 100%;
+}
+.TypeMessage button:hover{
+    border:none;
+}
+
+.TypeMessage p{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: translateX(-50px);
+
+}
+
+.TypeMessage-input{
+    width:600px ;
+    height:140px;
+    overflow-y: scroll;
+}
+
+.contact{
+    font-family: cursive;
+    font-weight: bolder;
+}
+.contactus{
+    text-align: center;
+
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h5{
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 20px;
+}
+h6{
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 20px;
+}
+p{
+    padding: 2px;
+    cursor: pointer;
+
+}
+.text-footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
