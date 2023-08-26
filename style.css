@@ -7,6 +7,8 @@
 }
 .bg{
     background-color:rgba(65, 4, 4, 0.98);
+    
+    height: 450px;
 
 }
 .page1{
@@ -99,34 +101,12 @@ button:hover{
     color: white;
     
 }
-.ICON{
-    width: 190%;
-    top: 350px;
-    color: ivory;
-    font-family: cursive;
-    transform: translateX(155px);
-    position:absolute;
-    top:420px;
-    text-align: center;
-    cursor: pointer;
-    left: 0px;
-    height: 120px;
-    
-}
-.ICON img{
-    width: 120px;
-    color: white;
-    transform: translateX(-690px);
-    bottom: 50px;
-    top: 270px;
-
-}
 .content {
     margin-left: 0px;
     margin-right: 0px;
 
 
-    font-size: 6px;
+    font-size: 5px;
     margin-top: 80px;
     color: ivory;
     font-family: cursive;
@@ -134,14 +114,14 @@ button:hover{
     width:100%;
     position:absolute;
     top: 250px;;
-    left:0px;
+    left:10px;
     text-align: center;
     word-spacing: 7px;
     letter-spacing: 1px;
 
 }
 .bg-image{
-    height: 400px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -158,14 +138,6 @@ button:hover{
 
 }
 
-.bg-image  h1{
-    text-align: left;
-    width: 110%;
-    font-family: cursive;
-    font-size: 16px;
-    color: rgb(190, 15, 15);
-    transform: translateY(-250px);
-}
 .content0{
     justify-content: center;
     margin: 0;
@@ -178,9 +150,15 @@ hr{
     margin-top: 0px;
 }
 .TypeMessage{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+
     color: rgb(170, 243, 23);
     max-width: 800px;
-    height: 42px auto;
+    height: 400px;
     overflow: hidden;
     transform: translateY(-150px);
     justify-content: center;
@@ -190,8 +168,19 @@ hr{
     align-items: center;
     position: relative
 }
+.TypeMessage h1{
+    text-align: left;
+    width: 110%;
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(247, 7, 7);
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
 .TypeMessage h2{
-    font-size: 25px;
+    font-size: 15px;
     font-family: cursive;
     width: 600px;
 }
@@ -215,6 +204,7 @@ hr{
     align-items: center;
     transform: translateX(-90px);
     justify-content: center;
+    border-left-width: 3px;
 
     width: 360px;
     height: 76px;
@@ -246,7 +236,7 @@ hr{
 
 .TypeMessage p{
     font-family: cursive;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
     transform: translateX(-50px);
 
