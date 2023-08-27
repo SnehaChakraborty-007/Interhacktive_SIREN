@@ -5,6 +5,9 @@
     overflow-x:hidden;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .bg{
     background-color:rgba(65, 4, 4, 0.98);
     
