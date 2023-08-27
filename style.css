@@ -29,6 +29,7 @@ ul.nav-list{
     display: flex;
     justify-content: right;
     padding: 40px;
+    
 
 }
 ul.nav-list li{
@@ -47,6 +48,8 @@ ul.nav-list li{
     align-items: right;
     justify-content:space-between;
     font-size: large;
+    transform: translateX(0px);
+
     
 }
 button{
@@ -104,8 +107,9 @@ button:hover{
 .content {
     margin-left: 0px;
     margin-right: 0px;
+    
 
-
+    overflow: hidden;
     font-size: 5px;
     margin-top: 80px;
     color: ivory;
@@ -120,12 +124,17 @@ button:hover{
     letter-spacing: 1px;
 
 }
+.content h1{
+    transform: translateY(80px);
+    height: 100px;
+    position: relative;
+}
 .bg-image{
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-image: url("page2.jpg");
+    background-image: url("finalPAGE2.jpg");
     overflow: hidden;
     margin: 29%;
     padding: 25%;
@@ -165,7 +174,7 @@ hr{
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
-    color: rgb(170, 243, 23);
+    color:rgb(226, 18, 226);
     height: 480px;
     overflow: hidden;
     position: relative;
@@ -174,7 +183,7 @@ hr{
     padding-right: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
-    left: 220px;
+    left: 0px;
     top: 50px;
     padding-top: 0px;
     margin-top: 0px;
@@ -182,24 +191,22 @@ hr{
 
 
 }
-.TypeMessage h1{
+.bg-image h1{
     text-align: left;
-    width: 110%;
+    width: 100%;
     font-family: cursive;
     font-size: 16px;
-    color: rgb(247, 7, 7);
     margin-left: 20px;
     margin-right: 20px;
-
+    color: red;
 
 }
 .TypeMessage h2{
     font-size: 15px;
     font-family: cursive;
     width: 600px;
-    font-weight: bolder;
-    color: rgb(250, 51, 250);
-    text-align: center;
+    font-weight: 900%;
+    text-align: left;
     margin-left: 200px;
     margin-right: 20px;
 
@@ -211,7 +218,7 @@ hr{
     margin-left: 100px;
     padding-bottom: 10px;
     border-radius: 205px;
-    border: solid yellowgreen;
+    border: solid rgb(20, 228, 228);
 
     background: transparent;
     color: ivory;
@@ -224,7 +231,7 @@ hr{
     cursor: pointer;
     font-size: large;
     align-items: center;
-    transform: translateX(-90px);
+    transform: translateX(-50px);
     justify-content: center;
     border-width: 3px;
 
@@ -238,7 +245,7 @@ hr{
 
 }
 .TypeMessage button span{
-    background:  rgb(170, 243, 23);
+    background: rgb(20, 228, 228);
     height: 100%;
     width: 0px;
     border-radius: 25px;
@@ -260,6 +267,7 @@ hr{
     font-size: 15px;
     font-weight: bolder;
     transform: translateX(-50px);
+
 
 }
 
@@ -306,21 +314,6 @@ p{
     justify-content: center;
     font-size: 12px;
 }
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-
-
-}
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-}
 @media only screen and (max-width:1140px){
         .nav-list{
             flex-direction: column;
@@ -328,11 +321,17 @@ p{
         .h-nav{
             height: 200px;
         }
+        ul.nav-list li a{
+                
+        transform: translateX(75px);
+
+
+        }
         .TypeMessage{
             left: 0px;
             margin-left: 0px;
         }
-        .TypeMessage h1{
+        .bg-image h1{
             padding-right: 10px;
             margin-left: 0px;
             margin-right: 0px;
@@ -344,7 +343,5 @@ p{
             width: auto;
         }
 
-        .burger{
-            display: block;
-        }
+        
 }
