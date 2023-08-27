@@ -1,6 +1,15 @@
-function scrollToSection(sectionId){
-    const section = document.getElementById(sectionId);
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("myForm");
     
-    section.scrollIntoView({behavior: 'smooth'});
-    
-}
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        
+        const inputText = document.getElementById("inputText").value;
+        
+        // Save the input text in session storage
+        sessionStorage.setItem("submittedText", inputText);
+        
+        // Redirect to the next page
+        window.location.href = "direct.html";
+    });
+});

@@ -194,6 +194,11 @@ hr{
 
 
 }
+input[type=text]{
+    width: 500px;
+    height: 100px;
+}
+
 .bg-image h1{
     text-align: left;
     width: 100%;
@@ -269,7 +274,7 @@ hr{
     font-family: cursive;
     font-size: 15px;
     font-weight: bolder;
-    transform: translateX(-50px);
+    transform: translateX(-5px);
 
 
 }

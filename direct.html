@@ -6,6 +6,15 @@
     <title>DISTRESSED_MESSAGES</title>
 </head>
 <body>
-    
+    <h1>MESSAGE-BOX-CONTENTS</h1>
+    <p id="submittedText"></p>
+    <script>
+        // Retrieve and display the submitted content from session storage
+        const submittedText = sessionStorage.getItem("submittedText");
+        if (submittedText) {
+            const submittedContentElement = document.getElementById("submittedText");
+            submittedContentElement.textContent = submittedText;
+        }
+    </script>
 </body>
 </html>

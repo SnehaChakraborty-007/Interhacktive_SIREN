@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <title>Project Siren</title>
 </head>
 <body>
@@ -41,12 +40,12 @@
     <div class="TypeMessage" id="section1">
         <br>
         
-            <h2>YOU MAY TYPE YOUR MESSAGE HERE AND MENTION YOUR LOCATION </h2>
-            <textarea class="TypeMessage-input" name="text" id="text" cols="30" rows="10" placeholder="TYPE YOUR MESSAGE HERE:"></textarea>
-            <br>
-            
-            <div ><ul><li><a href="direct.html"><button type="button "><span></span>SUBMIT</button></a></li></ul></div>
-            <p> HELP IS ON THE WAY</p>
+            <form id="myForm">
+                <label for="inputText">YOU MAY TYPE YOUR MESSAGE HERE AND MENTION YOUR LOCATION:</label>
+                <input type="text" id="inputText" name="inputText" cols="30" rows="10" placeholder="TYPE YOUR MESSAGE HERE:">
+                <div ><ul><li><a href="direct.html"><button type="submit "><span></span>SUBMIT</button></a></li></ul></div>
+            </form>
+                <p> HELP IS ON THE WAY</p>
         </div>
     </section>
     <hr1>
@@ -78,5 +77,7 @@
         </p>
         
     </footer>
+    <script src="script.js"></script>
+
     </body>
 </html>
