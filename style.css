@@ -113,7 +113,7 @@ button:hover{
     transform: translateX(-20px);
     width:100%;
     position:absolute;
-    top: 250px;;
+    top: 300px;;
     left:10px;
     text-align: center;
     word-spacing: 7px;
@@ -134,7 +134,17 @@ button:hover{
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 1%;
-    height: 0vh;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 0px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: auto;
+    height: 500px;
+
+
 
 }
 
@@ -155,18 +165,22 @@ hr{
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
-
     color: rgb(170, 243, 23);
-    max-width: 800px;
-    height: 400px;
+    height: 480px;
     overflow: hidden;
-    transform: translateY(-150px);
+    position: relative;
     justify-content: center;
-    display: flex;
-    width: 700px;
-    flex-direction: column;
-    align-items: center;
-    position: relative
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    left: 220px;
+    top: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+
+
 }
 .TypeMessage h1{
     text-align: left;
@@ -183,6 +197,13 @@ hr{
     font-size: 15px;
     font-family: cursive;
     width: 600px;
+    font-weight: bolder;
+    color: rgb(250, 51, 250);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 20px;
+
+
 }
 .TypeMessage button{
     height: 50px;
@@ -191,6 +212,7 @@ hr{
     padding-bottom: 10px;
     border-radius: 205px;
     border: solid yellowgreen;
+
     background: transparent;
     color: ivory;
     justify-content: center ;
@@ -204,10 +226,9 @@ hr{
     align-items: center;
     transform: translateX(-90px);
     justify-content: center;
-    border-left-width: 3px;
+    border-width: 3px;
 
-    width: 360px;
-    height: 76px;
+    
     border-left-width: 0px;
     left: 0px;
     padding-left: 10;
@@ -285,4 +306,45 @@ p{
     justify-content: center;
     font-size: 12px;
 }
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
 
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width:1140px){
+        .nav-list{
+            flex-direction: column;
+        }  
+        .h-nav{
+            height: 200px;
+        }
+        .TypeMessage{
+            left: 0px;
+            margin-left: 0px;
+        }
+        .TypeMessage h1{
+            padding-right: 10px;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        
+        }
+        .TypeMessage h2{
+            margin-left: 0px;
+            width: auto;
+        }
+
+        .burger{
+            display: block;
+        }
+}
