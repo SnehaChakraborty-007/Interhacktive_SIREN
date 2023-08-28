@@ -42,4 +42,4 @@ JavaScript
 HTML 
 CSS
 
-**Tracks we are participating in** : All girls team
+**Tracks we are participating in :**  All girls team
