@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
     <title>Project Siren</title>
 </head>
 <body>
     <audio id="myAudio">
-        <source src="siren.mp3" type="audio/mpeg">
+        <source src="siren.mp3" >
       </audio>
       
     <section class="bg page1">
@@ -24,9 +26,7 @@
     </nav>
     <div class="content0">
          <div>
-            <div class="actionbuttons">
-                <button class="sirenButton "><span></span>SIREN</button>
-            </div>
+                <button type="button" id="sirenButton " onclick="aud_play()"><span></span>SIREN</button>
             <ul><li><a href="#section1">
                  <button type="button "><span></span>MESSAGE US</button></a></li></ul>
             
@@ -82,7 +82,7 @@
         </p>
         
     </footer>
-    <script src="script.js"></script>
+
 
     </body>
 </html>

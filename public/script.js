@@ -13,15 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "direct.html";
     });
 });
-let playbutton = document.getElementsByClassName("SIREN");
-let text = Document.querySelector("p");
-const audio = new Audio("./siren.mp3");
-playbutton[0].addEventListener("click", (e)=>{
-    audio.play();
 
-}
+function aud_play()
+    {
+        var myAudio= document.getElementById('myAudio');
+        if(myAudio){
+            myAudio.play();
+        } 
+    }
+    
 
-function playSiren() {
-  s.play();
-}
+
 
