@@ -21,6 +21,12 @@ The purpose of this website is to provide immediate help to those people (irresp
 
 There are a lot more cases like robbery, domestic violence, human trafficking, etc.
 
+**Challeges We Faced During Creating The Website**
+
+-While writing the code it was challenging for me to make the website responsive and in the media query section took a lot of time.
+
+-Adding sound on clicking the SIREN button using Javascript was also alittle bit of a challenge for me since I am just a beginner in this field at this moment.
+
 **Future plans** :
 
 We are currently in second year and this is the very first hackathon event we are participating in. Hence, we can call ourselves beginners, getting to know some of the programming languages. This project is a very small and rough idea of a bigger project that could be made. We have thought of implementing two more options that would boost the working of this website.
