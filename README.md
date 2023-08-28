@@ -1,6 +1,13 @@
   # Interhacktive_SIREN
 ![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/427e093e-b7a2-44c9-b98c-af7a958e7618)
-**Youtube link**:https://youtu.be/Kac2JnfE_AA?feature=shared
+
+**About The Project:**
+:https://youtu.be/Kac2JnfE_AA?feature=shared
+![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/b11f272e-3402-49fb-a518-aa91cc2e57ef)
+![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/19e8e5b9-e6a0-495c-bdce-07eb18d30219)
+![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/47438c99-19f8-446c-8d3f-fc7e34eb056a)
+
+
 **Inspiration :**
 
 This project falls under the theme of “Social Impact" which aims in contributing some help to the people especially women in danger. Our motive is to rescue people who are in danger or might have sensed danger or suspicion around them. A few months back, one of our team members heard an incident that happened with someone she knew, who was in trouble, i.e, she was returning home late at night and could sense that a gang of 4 men were following her which was very obvious. She was afraid and hence  dialled the emergency number which was not picked up. Many of us has faced incidents like this, and this very scenario was the inspo of our project. We thought of creating a site which would contain a siren button, when pressed by the person in trouble, would notify us and we can inform it to the nearby police station to provide some immediate help.
