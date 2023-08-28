@@ -1,5 +1,4 @@
 # Interhacktive_SIREN
-![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/0cf98b99-8185-4f13-9ab8-245ffe7c3c6f)
 
 
  **Overview**:
