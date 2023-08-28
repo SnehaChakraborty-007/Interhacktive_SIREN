@@ -36,7 +36,7 @@ As soon as a person clicks on the siren button, the device camera would start wo
 
 **2**. Location tracker : Another important feature we have thought of, is tracking the victim's location as soon as they press the siren button. The location of the device would be turned on (if it wasn't ) and would be sent to us, which we can share to the police and the emergency team for the rescue.
 
-**Languages used** :
+**Languages used :** 
 
 JavaScript
 HTML 
