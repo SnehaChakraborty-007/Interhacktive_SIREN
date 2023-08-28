@@ -21,7 +21,7 @@ The purpose of this website is to provide immediate help to those people (irresp
 
 There are a lot more cases like robbery, domestic violence, human trafficking, etc.
 
-**Challeges We Faced During Creating The Website :**
+**Challenges we faced while creating the website :**
 
 -While writing the code it was challenging for me to make the website responsive and in the media query section took a lot of time.
 
