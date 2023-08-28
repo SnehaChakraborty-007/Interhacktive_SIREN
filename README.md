@@ -1,4 +1,6 @@
 # Interhacktive_SIREN
+![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/9afd3733-35ca-4150-9d68-8d8128c50a02)
+
  **Overview**:
 
 This project falls under the theme of “Social Impact" which aims in contributing some help to the people especially women in danger . The name of this project is SIREN, which literally means 'a warning sound' which quite well fits with the motive of this project. If someone senses danger around them (like they are being stalked or followed, watching someone get kidnapped or a victim of domestic violence) wherever they might be, they could just visit this website and press on the large red coloured SIREN button, so that the we get notified about it and can inform the police or the emergency team to get ready with immediate help. This website could be a substitute way to the the emergency or SOS call which is often not picked up and is of no proper use.
