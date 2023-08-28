@@ -25,10 +25,10 @@ There are a lot more cases like robbery, domestic violence, human trafficking, e
 
 We are currently in second year and this is the very first hackathon event we are participating in. Hence, we can call ourselves beginners, getting to know some of the programming languages. This project is a very small and rough idea of a bigger project that could be made. We have thought of implementing two more options that would boost the working of this website.
 
-  **1**Camera settings:
+  **1**. Camera settings:
 As soon as a person clicks on the siren button, the device camera would start working, and hence there's a great chance that the aggressor would get recorded as well as the whole incident.
 
-**2**Location tracker : Another important feature we have thought of, is tracking the victim's location as soon as they press the siren button. The location of the device would be turned on (if it wasn't ) and would be sent to us, which we can share to the police and the emergency team for the rescue.
+**2**. Location tracker : Another important feature we have thought of, is tracking the victim's location as soon as they press the siren button. The location of the device would be turned on (if it wasn't ) and would be sent to us, which we can share to the police and the emergency team for the rescue.
 
 **Languages used** :
 
