@@ -9,7 +9,7 @@ This project falls under the theme of “Social Impact" which aims in contributi
 
 The name of this project is SIREN, which literally means 'a warning sound' which quite well fits with the motive of this project. If someone senses danger around them (like they are being stalked or followed, watching someone get kidnapped or a victim of domestic violence) wherever they might be, they could just visit this website and press on the large red coloured SIREN button, so that the we get notified about it and can inform the police or the emergency team to get ready with immediate help. This website could be a substitute way to the the emergency or SOS call which is often not picked up and is of no proper use.
 
-**Challenges we face** :
+**Challenges we face :** 
 
 The purpose of this website is to provide immediate help to those people (irrespective of their gender) who have sensed danger or suspicion around them. But despite global pacts, new laws and gender activism, women remain extremely vulnerable to violence. Violence against women is an indicator of how prone societies are towards violence. Women’s safety isn’t only threatened or violated during wars and conflicts. It’s threatened in their daily lives in both public and private spheres, including in stable democracies and during times of peace .Women also experience economic and psychological forms of violence. Gender-based violence is a violation of women’s dignity and rights. It affects their human security and remains with them throughout their lives.
 
