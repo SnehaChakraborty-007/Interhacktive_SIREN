@@ -1,5 +1,11 @@
 # Interhacktive_SIREN
-![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/7fb3c0ae-1439-491b-993e-55985216b0df)
+
+            Fonts used: Lato-Italic 
+
+            Colors used: D9D9D9,F76F72  
+
+            Icon url: https://thenounproject.com/term/siren/2039  
+        
 
 
 
