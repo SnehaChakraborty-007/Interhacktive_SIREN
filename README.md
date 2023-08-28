@@ -5,7 +5,7 @@
 
 This project falls under the theme of “Social Impact" which aims in contributing some help to the people especially women in danger. Our motive is to rescue people who are in danger or might have sensed danger or suspicion around them. A few months back, one of our team members heard an incident that happened with someone she knew, who was in trouble, i.e, she was returning home late at night and could sense that a gang of 4 men were following her which was very obvious. She was afraid and hence  dialled the emergency number which was not picked up. Many of us has faced incidents like this, and this very scenario was the inspo of our project. We thought of creating a site which would contain a siren button, when pressed by the person in trouble, would notify us and we can inform it to the nearby police station to provide some immediate help.
 
- **Overview**:
+ **Overview :**
 
 The name of this project is SIREN, which literally means 'a warning sound' which quite well fits with the motive of this project. If someone senses danger around them (like they are being stalked or followed, watching someone get kidnapped or a victim of domestic violence) wherever they might be, they could just visit this website and press on the large red coloured SIREN button, so that the we get notified about it and can inform the police or the emergency team to get ready with immediate help. This website could be a substitute way to the the emergency or SOS call which is often not picked up and is of no proper use.
 
