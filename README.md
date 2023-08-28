@@ -38,6 +38,8 @@ As soon as a person clicks on the siren button, the device camera would start wo
 
 **Languages used** :
 
-Javascript HTML CSS
+JavaScript
+HTML 
+CSS
 
 **Tracks we are participating in** : All girls team
