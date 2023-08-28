@@ -1,10 +1,6 @@
 # Interhacktive_SIREN
 
-            Fonts used: Lato-Italic 
-
-            Colors used: D9D9D9,F76F72  
-
-            Icon url: https://thenounproject.com/term/siren/2039  
+ https://thenounproject.com/term/siren/2039  
         
 
 
