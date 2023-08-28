@@ -1,11 +1,4 @@
 # Interhacktive_SIREN
-https://img.freepik.com/premium-vector/emergency-siren-icon-vector-illustration_77417-1804.jpg?w=740
-
- 
-        
-
-
-
 
  **Overview**:
 
