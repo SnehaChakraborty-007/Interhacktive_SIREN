@@ -113,7 +113,7 @@ button:hover{
     
 
     overflow: hidden;
-    font-size: 5px;
+    font-size: 4px;
     margin-top: 80px;
     color: ivory;
     font-family: sans-serif;
@@ -123,7 +123,7 @@ button:hover{
     top: 300px;
     left:10px;
     text-align: center;
-    word-spacing: 7px;
+    word-spacing: 5px;
     letter-spacing: 1px;
 
 }
