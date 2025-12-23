@@ -4,8 +4,7 @@
 **About The Project:**
 :https://youtu.be/Kac2JnfE_AA?feature=shared
 ![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/b11f272e-3402-49fb-a518-aa91cc2e57ef)
-![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/19e8e5b9-e6a0-495c-bdce-07eb18d30219)
-![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/47438c99-19f8-446c-8d3f-fc7e34eb056a)
+
 
 
 **Inspiration :**
