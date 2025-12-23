@@ -6,46 +6,114 @@
 ![image](https://github.com/SnehaChakraborty-007/Interhacktive_SIREN/assets/142686074/b11f272e-3402-49fb-a518-aa91cc2e57ef)
 
 
+.
 
-**Inspiration :**
+🚨 SIREN – A Women Safety & Social Impact Website
 
-This project falls under the theme of “Social Impact" which aims in contributing some help to the people especially women in danger. Our motive is to rescue people who are in danger or might have sensed danger or suspicion around them. A few months back, one of our team members heard an incident that happened with someone she knew, who was in trouble, i.e, she was returning home late at night and could sense that a gang of 4 men were following her which was very obvious. She was afraid and hence  dialled the emergency number which was not picked up. Many of us has faced incidents like this, and this very scenario was the inspo of our project. We thought of creating a site which would contain a siren button, when pressed by the person in trouble, would notify us and we can inform it to the nearby police station to provide some immediate help.
+🌟 Inspiration
 
- **Overview :**
+This project falls under the theme of Social Impact, aiming to contribute meaningful help to people—especially women—who may find themselves in dangerous situations. The motivation behind SIREN comes from real-life incidents that many of us have either experienced or heard about.
 
-The name of this project is SIREN, which literally means 'a warning sound' which quite well fits with the motive of this project. If someone senses danger around them (like they are being stalked or followed, watching someone get kidnapped or a victim of domestic violence) wherever they might be, they could just visit this website and press on the large red coloured SIREN button, so that the we get notified about it and can inform the police or the emergency team to get ready with immediate help. This website could be a substitute way to the the emergency or SOS call which is often not picked up and is of no proper use.
+A few months ago, one of our team members came across an incident involving someone she knew. The person was returning home late at night and sensed that a group of four men were following her. She felt threatened and tried calling the emergency helpline, but the call went unanswered. Situations like these are unfortunately common. Many emergency or SOS calls are either delayed or not picked up at all, leaving victims helpless at crucial moments.
 
-**Challenges we face :** 
+This incident inspired us to create SIREN—a website that provides an alternative, quick, and accessible way to alert others and seek immediate help when danger is sensed.
 
-The purpose of this website is to provide immediate help to those people (irrespective of their gender) who have sensed danger or suspicion around them. But despite global pacts, new laws and gender activism, women remain extremely vulnerable to violence. Violence against women is an indicator of how prone societies are towards violence. Women’s safety isn’t only threatened or violated during wars and conflicts. It’s threatened in their daily lives in both public and private spheres, including in stable democracies and during times of peace .Women also experience economic and psychological forms of violence. Gender-based violence is a violation of women’s dignity and rights. It affects their human security and remains with them throughout their lives.
+🔍 Overview
 
--Walking alone in the empty streets at night, is still a nightmare for many of us, as there are a lot of terrible cases that has occurred in this plot, i.e, someone being stalked or followed.
+SIREN literally means “a warning sound”, which perfectly aligns with the purpose of this project. The website is designed to help individuals who sense danger—such as being stalked, followed, witnessing a kidnapping, or facing domestic violence.
 
--Ragging, or hazing, is a common problem in educational institutions. Despite being banned by the government the practice continues to persist, leading to a growing number of incidents of physical and psychological abuse.
+The core feature of the website is a large red SIREN button. When a person in distress clicks this button:
 
--Kidnapping and Abduction is also very common nowadays. People are often afraid to physically take a step ahead when the get to see someone being kidnapped or abducted. This website could be of great help then.
+A siren sound is triggered to draw attention.
 
-There are a lot more cases like robbery, domestic violence, human trafficking, etc.
+The user can submit a distress message.
 
-**Challenges we faced while creating the website :**
+The message is securely stored in a cloud database.
 
--While writing the code it was challenging for me to make the website responsive and in the media query section took a lot of time.
+The message history can be viewed on a separate page.
 
--Adding sound on clicking the SIREN button using Javascript was also alittle bit of a challenge for me since I am just a beginner in this field at this moment.
+This system acts as a substitute for emergency calls, offering an additional layer of safety when traditional systems fail or are unavailable.
 
-**Future plans :** 
+⚠️ Social Challenges Addressed
 
-We are currently in second year and this is the very first hackathon event we are participating in. Hence, we can call ourselves beginners, getting to know some of the programming languages. This project is a very small and rough idea of a bigger project that could be made. We have thought of implementing two more options that would boost the working of this website.
+The website focuses on addressing real-world safety challenges, including but not limited to:
 
-  **1**. Camera settings:
-As soon as a person clicks on the siren button, the device camera would start working, and hence there's a great chance that the aggressor would get recorded as well as the whole incident.
+Women’s safety: Despite laws and activism, women remain extremely vulnerable to physical, psychological, and economic violence.
 
-**2**. Location tracker : Another important feature we have thought of, is tracking the victim's location as soon as they press the siren button. The location of the device would be turned on (if it wasn't ) and would be sent to us, which we can share to the police and the emergency team for the rescue.
+Walking alone at night: Many people feel unsafe walking alone due to frequent cases of stalking and harassment.
 
-**Languages used :** 
+Ragging and hazing: Still prevalent in educational institutions despite being illegal.
 
-JavaScript
-HTML 
+Kidnapping and abduction: People often hesitate to intervene due to fear.
+
+Domestic violence, robbery, and human trafficking.
+
+Violence against women is a violation of dignity and human rights, affecting victims throughout their lives. This project aims to contribute a small but meaningful step toward addressing these issues.
+
+🛠️ Technical Challenges Faced
+
+While developing the website, we encountered several challenges:
+
+Making the website responsive using CSS and media queries required significant effort and learning.
+
+Implementing audio playback (siren sound) using JavaScript was challenging, especially ensuring it could toggle on and off correctly.
+
+Understanding and integrating Firebase Realtime Database for storing and retrieving data was a new and valuable learning experience.
+
+🚀 Recent Implementations (New Features)
+
+We have successfully enhanced the project with the following features:
+
+Firebase Realtime Database Integration
+
+Distress messages submitted by users are now stored permanently in the database.
+
+Message History
+
+All previously submitted messages are displayed on the Distressed Messages page.
+
+Timestamp Logging
+
+Each message is stored along with the exact date and time of submission.
+
+Location Capture
+
+The user’s location is recorded in the form of latitude and longitude, providing crucial context during emergencies.
+
+Real-time Updates
+
+Messages appear instantly on the messages page without needing a page refresh.
+
+These features significantly improve the usefulness and reliability of the platform.
+
+🔮 Future Plans
+
+We are currently second-year students, and this is our first hackathon project. SIREN is just an initial prototype of a much larger idea. In the future, we plan to implement:
+
+Camera Access
+
+When the siren button is pressed, the device camera will activate automatically to record the incident and possibly capture the aggressor.
+
+Live Location Tracking
+
+The user’s live location will be shared in real time with emergency responders and nearby authorities for faster rescue.
+
+These features would greatly enhance the effectiveness of the platform in real-world emergency scenarios.
+
+💻 Technologies Used
+
+HTML
+
 CSS
 
-**Tracks we are participating in :**  All girls team
+JavaScript
+
+Firebase Realtime Database
+
+👩‍💻 Track Participation
+
+All Girls Team
+
+❤️ Final Note
+
+SIREN is a small step toward building a safer society. While it is a beginner-level project, it represents a strong intention to use technology for social good. With further development and support, this idea has the potential to evolve into a powerful safety tool.
