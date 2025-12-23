@@ -2,19 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>DISTRESSED MESSAGES</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DISTRESSED_MESSAGES</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef6ff;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #b30000;
+        }
+
+        .message-box {
+            max-width: 600px;
+            margin: 10px auto;
+            background: white;
+            padding: 15px;
+            border-left: 5px solid rgb(23, 124, 37);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .time {
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>MESSAGE-BOX-CONTENTS</h1>
-    <p id="submittedText"></p>
-    <script>
-        // Retrieve and display the submitted content from session storage
-        const submittedText = sessionStorage.getItem("submittedText");
-        if (submittedText) {
-            const submittedContentElement = document.getElementById("submittedText");
-            submittedContentElement.textContent = submittedText;
-        }
-    </script>
+
+<h1>MESSAGE HAS BEEN RECEIVED</h1>
+<div id="messages"></div>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyB5_MvGGuMHdf_CECJIRh6JvCTbNBcZXL0",
+      authDomain: "interhacktive-siren.firebaseapp.com",
+      databaseURL: "https://interhacktive-siren-default-rtdb.firebaseio.com",
+      projectId: "interhacktive-siren",
+      storageBucket: "interhacktive-siren.firebasestorage.app",
+      messagingSenderId: "220155206084",
+      appId: "1:220155206084:web:ab9a783ad2005cf2802c91"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+
+    const messagesRef = ref(database, "distress_messages");
+    const container = document.getElementById("messages");
+
+    onValue(messagesRef, (snapshot) => {
+        container.innerHTML = "";
+
+        snapshot.forEach((child) => {
+            const data = child.val();
+
+            const div = document.createElement("div");
+            div.className = "message-box";
+            div.innerHTML = `
+                <p>${data.message}</p>
+                <div class="time">${data.time}</div>
+            `;
+
+            // newest message at the top
+            container.prepend(div);
+        });
+    });
+</script>
+
 </body>
 </html>
