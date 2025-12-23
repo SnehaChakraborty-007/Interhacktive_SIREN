@@ -50,16 +50,37 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const messagesRef = ref(database, "distress_messages");
+    // ---------- LOCATION ADDED HERE ----------
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const location = {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude
+        };
 
-    push(messagesRef, {
-      message: message,
-      time: time
-    }).then(() => {
-      messageInput.value = "";
-      window.location.href = "direct.html";
-    }).catch((error) => {
-      console.error("Error saving message:", error);
-    });
+        saveMessage(message, time, location);
+      },
+      () => {
+        // If location permission denied or unavailable
+        saveMessage(message, time, "Location not available");
+      }
+    );
   });
 });
+
+// ---------------- Save Message to Firebase ----------------
+function saveMessage(message, time, location) {
+  const messagesRef = ref(database, "distress_messages");
+
+  push(messagesRef, {
+    message: message,
+    time: time,
+    location: location
+  })
+    .then(() => {
+      window.location.href = "direct.html";
+    })
+    .catch((error) => {
+      console.error("Error saving message:", error);
+    });
+}
